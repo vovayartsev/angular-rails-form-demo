@@ -1,3 +1,16 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.LeftHalf {
+  float: left;
+  width: 40%;
+  padding-right: 5%
+}
+.RightHalf {
+  width: 49%;
+  float: left;
+  padding-left: 5%;
+  border-left: solid 1px #aaa;
+}
