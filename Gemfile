@@ -30,7 +30,6 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
 
 gem "rails-assets-angular", "~> 1.2.9"
-gem "rails-assets-angular-animate", "~> 1.2.9"
 gem "rails-assets-angular-resource", "~> 1.2.9"
 gem 'ng-rails-csrf'
 gem 'ng-rails-form', :path => './ng-rails-form'

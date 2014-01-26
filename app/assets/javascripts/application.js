@@ -6,7 +6,6 @@
 
 //= require angular
 //= require angular-resource
-//= require angular-animate
 //= require ng-rails-csrf
 //= require ng-rails-form
 

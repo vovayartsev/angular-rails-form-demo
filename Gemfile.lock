@@ -82,8 +82,6 @@ GEM
       railties (= 4.0.2)
       sprockets-rails (~> 2.0.0)
     rails-assets-angular (1.2.9)
-    rails-assets-angular-animate (1.2.9)
-      rails-assets-angular (= 1.2.9)
     rails-assets-angular-resource (1.2.9)
       rails-assets-angular (= 1.2.9)
     railties (4.0.2)
@@ -144,7 +142,6 @@ DEPENDENCIES
   pry
   rails (= 4.0.2)
   rails-assets-angular (~> 1.2.9)
-  rails-assets-angular-animate (~> 1.2.9)
   rails-assets-angular-resource (~> 1.2.9)
   responders
   sass-rails (~> 4.0.0)

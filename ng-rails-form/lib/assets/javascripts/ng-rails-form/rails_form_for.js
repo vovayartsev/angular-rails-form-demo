@@ -28,6 +28,7 @@ angular.module('ngRailsForm').directive('railsFormFor', ['$log', function ($log)
                 if (!parser) {
                     parser = function (value) {
                         control.$setValidity('server', true);
+                        delete(ctrl.$errors[control.$name]); // also cleaning up user-friendly messages
                         return value;
                     };
                     cleanupParsers[control.$name] = parser;
@@ -55,6 +56,9 @@ angular.module('ngRailsForm').directive('railsFormFor', ['$log', function ($log)
                         var parser = cleanupParserFor(modelCtrl);
                         if (modelCtrl.$parsers.indexOf(parser) === -1) {
                             modelCtrl.$parsers.push(parser);
+                        }
+                        if (modelCtrl.$formatters.indexOf(parser) === -1) {
+                            modelCtrl.$formatters.push(parser);
                         }
                     } else {
                         $log.error("Can't set validity of '" + field + "' - no such field in the form");

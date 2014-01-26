@@ -1,1 +1,1 @@
-angular.module("ngRailsFormDemoApp", ['ngResource', 'ngRailsForm', 'ng-rails-csrf', 'ngAnimate'])
+angular.module("ngRailsFormDemoApp", ['ngResource', 'ngRailsForm', 'ng-rails-csrf'])

@@ -156,7 +156,6 @@
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.2, rbenv: 2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v4.0.2, rbenv: 2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular (v1.2.9, rbenv: 2.0.0-p247) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-animate (v1.2.9, rbenv: 2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-resource (v1.2.9, rbenv: 2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v4.0.2, rbenv: 2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.1.1, rbenv: 2.0.0-p247) [gem]" level="application" />

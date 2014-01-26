@@ -35,28 +35,5 @@ tr.active {
   }
 }
 
-// ng-animation support
-
-.tr.ng-enter, .tr.ng-leave {
-  -webkit-transition: 0.5s linear all;
-  transition: 0.5s linear all;
-}
-
-.tr.ng-enter {
-}
-
-/* starting animations for enter */
-.tr.ng-enter-active {
-}
-
-/* terminal animations for enter */
-.tr.ng-leave {
-}
-
-/* starting animations for leave */
-.tr.ng-leave-active {
-}
-
-/* terminal animations for leave */
 
 
