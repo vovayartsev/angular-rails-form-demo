@@ -1,3 +1,8 @@
+PATH
+  remote: ./ng-rails-form
+  specs:
+    ng-rails-form (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
@@ -11,6 +16,8 @@ GEM
       erubis (~> 2.7.0)
       rack (~> 1.5.2)
       rack-test (~> 0.6.2)
+    active_model_serializers (0.8.1)
+      activemodel (>= 3.0)
     activemodel (4.0.2)
       activesupport (= 4.0.2)
       builder (~> 3.1.0)
@@ -29,6 +36,7 @@ GEM
     arel (4.0.1)
     atomic (1.1.14)
     builder (3.1.4)
+    coderay (1.1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -52,11 +60,16 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    method_source (0.8.2)
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.8.4)
     ng-rails-csrf (0.1.0)
     polyglot (0.3.3)
+    pry (0.9.12.4)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -69,6 +82,8 @@ GEM
       railties (= 4.0.2)
       sprockets-rails (~> 2.0.0)
     rails-assets-angular (1.2.9)
+    rails-assets-angular-animate (1.2.9)
+      rails-assets-angular (= 1.2.9)
     rails-assets-angular-resource (1.2.9)
       rails-assets-angular (= 1.2.9)
     railties (4.0.2)
@@ -79,6 +94,8 @@ GEM
     rake (10.1.1)
     rdoc (4.1.1)
       json (~> 1.4)
+    responders (1.0.0)
+      railties (>= 3.2, < 5)
     sass (3.2.14)
     sass-rails (4.0.1)
       railties (>= 4.0.0, < 5.0)
@@ -87,6 +104,7 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
+    slop (3.4.7)
     sprockets (2.10.1)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -108,8 +126,6 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    turbolinks (2.2.0)
-      coffee-rails
     tzinfo (0.3.38)
     uglifier (2.4.0)
       execjs (>= 0.3.0)
@@ -119,16 +135,20 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_model_serializers
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
   ng-rails-csrf
+  ng-rails-form!
+  pry
   rails (= 4.0.2)
   rails-assets-angular (~> 1.2.9)
+  rails-assets-angular-animate (~> 1.2.9)
   rails-assets-angular-resource (~> 1.2.9)
+  responders
   sass-rails (~> 4.0.0)
   sdoc
   sqlite3
   thin
-  turbolinks
   uglifier (>= 1.3.0)

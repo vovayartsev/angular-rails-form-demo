@@ -24,15 +24,23 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+#gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
 gem "rails-assets-angular", "~> 1.2.9"
+gem "rails-assets-angular-animate", "~> 1.2.9"
 gem "rails-assets-angular-resource", "~> 1.2.9"
 gem 'ng-rails-csrf'
+gem 'ng-rails-form', :path => './ng-rails-form'
+gem 'responders'
+gem "active_model_serializers"
 
+
+group :development do
+  gem 'pry'
+end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

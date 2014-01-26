@@ -2,15 +2,45 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
 .LeftHalf {
   float: left;
   width: 40%;
   padding-right: 5%
 }
+
 .RightHalf {
   width: 49%;
   float: left;
   padding-left: 5%;
   border-left: solid 1px #aaa;
 }
+
+tr.clickable {
+  &:hover {
+    td {
+      background-color: #ffe;
+    }
+  }
+  cursor: pointer;
+}
+
+tr.active {
+  td {
+    background-color: #ffd;
+    font-weight: bold;
+  }
+}
+
+
+// ng-animation support
+
+.tr.ng-enter, .tr.ng-leave {
+  -webkit-transition:0.5s linear all;
+  transition:0.5s linear all;
+}
+
+.tr.ng-enter { }        /* starting animations for enter */
+.tr.ng-enter-active { } /* terminal animations for enter */
+.tr.ng-leave { }        /* starting animations for leave */
+.tr.ng-leave-active { } /* terminal animations for leave */
+
