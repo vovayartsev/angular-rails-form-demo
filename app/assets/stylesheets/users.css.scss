@@ -2,6 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+input.ng-invalid {
+  background-color: #fcc;
+}
+
 .LeftHalf {
   float: left;
   width: 40%;
@@ -31,16 +35,28 @@ tr.active {
   }
 }
 
-
 // ng-animation support
 
 .tr.ng-enter, .tr.ng-leave {
-  -webkit-transition:0.5s linear all;
-  transition:0.5s linear all;
+  -webkit-transition: 0.5s linear all;
+  transition: 0.5s linear all;
 }
 
-.tr.ng-enter { }        /* starting animations for enter */
-.tr.ng-enter-active { } /* terminal animations for enter */
-.tr.ng-leave { }        /* starting animations for leave */
-.tr.ng-leave-active { } /* terminal animations for leave */
+.tr.ng-enter {
+}
+
+/* starting animations for enter */
+.tr.ng-enter-active {
+}
+
+/* terminal animations for enter */
+.tr.ng-leave {
+}
+
+/* starting animations for leave */
+.tr.ng-leave-active {
+}
+
+/* terminal animations for leave */
+
 

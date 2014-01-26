@@ -8,7 +8,7 @@ class UsersController < ApplicationController
   def index
     #@user = User.new
     @users = User.all
-    #respond_with @users, each_serializer: UserSerializer
+    #respond_with @users #, each_serializer: UserSerializer
     respond_to do |format|
       format.html
       format.json { render json: @users, each_serializer: UserSerializer }
