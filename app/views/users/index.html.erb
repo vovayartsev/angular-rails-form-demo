@@ -25,21 +25,31 @@
   </table>
 
   <div class="RightHalf">
-    <form name="userForm" rails-form-for="userInForm" on-success="onFormSubmittedSuccessfully()">
-      <div class="field">
-        <label for="name">Name</label>
+    <!--<form name="userForm" rails-form-for="userInForm" on-success="onFormSubmittedSuccessfully()">-->
+    <!--<div class="field">-->
+    <!--<label for="name">Name</label>-->
+    <!--<br>-->
+    <!--<input type="text" name="name" ng-model="userInForm.name">-->
+    <!--</div>-->
+    <!--<div class="field">-->
+    <!--<label for="email">Email</label>-->
+    <!--<br>-->
+    <!--<input type="text" name="email" ng-model="userInForm.email">-->
+    <!--</div>-->
+    <!--<div class="actions">-->
+    <!--<button type="submit">Submit Form</button>-->
+    <!--</div>-->
+    <!--</form>-->
+
+    <%= angular_form_for User.new, as: "userInForm", name: "userForm", on_success: "onFormSubmittedSuccessfully()" do |f| %>
+        <%= f.label :name %>
+        <%= f.text_field :name %>
         <br>
-        <input type="text" name="name" ng-model="userInForm.name">
-      </div>
-      <div class="field">
-        <label for="email">Email</label>
+        <%= f.label :email %>
+        <%= f.text_field :email %>
         <br>
-        <input type="text" name="email" ng-model="userInForm.email">
-      </div>
-      <div class="actions">
-        <button type="submit">Submit Form</button>
-      </div>
-    </form>
+        <%= f.submit %>
+    <% end %>
 
   </div>
 </div>
