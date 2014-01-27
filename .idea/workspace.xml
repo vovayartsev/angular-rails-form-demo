@@ -23,10 +23,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="rails_resource.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="rails_resource.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ng-rails-form/lib/assets/javascripts/ng-rails-form/rails_resource.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="31" selection-start="904" selection-end="904" vertical-scroll-proportion="0.43360996" vertical-offset="0" max-vertical-offset="1012">
+            <state line="20" column="41" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular_application.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular_application.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="56" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rails-assets-angular-1.2.9/vendor/assets/javascripts/angular.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="962">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="76" selection-start="632" selection-end="632" vertical-scroll-proportion="-5.903226" vertical-offset="411" max-vertical-offset="1342">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rails_form_for.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ng-rails-form/lib/assets/javascripts/ng-rails-form/rails_form_for.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="72" selection-start="1894" selection-end="1894" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="1782">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular_form_builder.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ng-rails-form/lib/ng-rails-form/angular_form_builder.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="27" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="770">
               <folding />
             </state>
           </provider>
@@ -65,8 +110,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/angular_application.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/ng-rails-form/lib/assets/javascripts/ng-rails-form/rails_form_for.js" />
         <option value="$PROJECT_DIR$/ng-rails-form/lib/assets/javascripts/ng-rails-form/rails_resource.js" />
+        <option value="$PROJECT_DIR$/ng-rails-form/lib/assets/javascripts/ng-rails-form/rails_form_for.js" />
       </list>
     </option>
   </component>
@@ -102,6 +147,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -112,6 +159,98 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-rails-form-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rails-assets-angular (v1.2.9, rbenv: 2.0.0-p247) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-rails-form-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rails-assets-angular (v1.2.9, rbenv: 2.0.0-p247) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-rails-form-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rails-assets-angular (v1.2.9, rbenv: 2.0.0-p247) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-rails-form-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rails-assets-angular (v1.2.9, rbenv: 2.0.0-p247) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -237,6 +376,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-rails-form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-rails-form-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-rails-form-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-rails-form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-rails-form-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-rails-form-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-rails-form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -492,8 +687,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -503,7 +696,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: angular-rails-form-demo">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -698,7 +891,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27823484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28114665" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -726,6 +919,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ng-rails-form/lib/assets/javascripts/ng-rails-form/rails_resource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="18" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="1012">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="20" selection-start="177" selection-end="177" vertical-scroll-proportion="0.08582575" vertical-offset="0" max-vertical-offset="1364" />
@@ -791,18 +991,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="759" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rails-assets-angular-1.2.9/vendor/assets/javascripts/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rails-assets-angular-1.2.9/vendor/assets/javascripts/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="613" column="48" selection-start="15229" selection-end="15229" vertical-scroll-proportion="-10.346154" vertical-offset="13217" max-vertical-offset="452430">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/ng-rails-csrf-0.1.0/vendor/assets/javascripts/ng-rails-csrf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782" />
@@ -853,11 +1041,6 @@
         <state line="1" column="31" selection-start="48" selection-end="48" vertical-scroll-proportion="0.028132992" vertical-offset="0" max-vertical-offset="782" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ng-rails-form/lib/ng-rails-form/angular_form_builder.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="119" selection-end="119" vertical-scroll-proportion="0.14066496" vertical-offset="0" max-vertical-offset="782" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ng-rails-form/ng-rails-form.gemspec">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="1" selection-start="218" selection-end="218" vertical-scroll-proportion="0.16879795" vertical-offset="0" max-vertical-offset="782" />
@@ -876,16 +1059,6 @@
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="23" selection-start="422" selection-end="422" vertical-scroll-proportion="0.22506393" vertical-offset="0" max-vertical-offset="782" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ng-rails-form/lib/assets/javascripts/ng-rails-form/rails_form_for.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="59" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.4054054" vertical-offset="930" max-vertical-offset="1892" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular_application.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="56" selection-start="85" selection-end="85" vertical-scroll-proportion="0.022869023" vertical-offset="0" max-vertical-offset="962" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.css.scss">
@@ -910,19 +1083,56 @@
         <state line="13" column="73" selection-start="410" selection-end="410" vertical-scroll-proportion="0.2972973" vertical-offset="0" max-vertical-offset="1782" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="35" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.5746509" vertical-offset="411" max-vertical-offset="1342" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="15" selection-start="93" selection-end="93" vertical-scroll-proportion="0.13721414" vertical-offset="0" max-vertical-offset="962" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="76" selection-start="632" selection-end="632" vertical-scroll-proportion="-5.903226" vertical-offset="411" max-vertical-offset="1342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular_application.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="56" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-rails-form/lib/assets/javascripts/ng-rails-form/rails_form_for.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="72" selection-start="1894" selection-end="1894" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-rails-form/lib/ng-rails-form/angular_form_builder.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="770">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ng-rails-form/lib/assets/javascripts/ng-rails-form/rails_resource.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="31" selection-start="904" selection-end="904" vertical-scroll-proportion="0.43360996" vertical-offset="0" max-vertical-offset="1012">
+        <state line="20" column="41" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rails-assets-angular-1.2.9/vendor/assets/javascripts/angular/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7571" column="25" selection-start="264791" selection-end="264791" vertical-scroll-proportion="0.23726977" vertical-offset="166343" max-vertical-offset="452430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rails-assets-angular-1.2.9/vendor/assets/javascripts/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="132">
           <folding />
         </state>
       </provider>

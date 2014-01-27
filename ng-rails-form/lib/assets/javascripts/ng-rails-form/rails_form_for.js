@@ -73,6 +73,7 @@ angular.module('ngRailsForm').directive('railsFormFor', ['$log', function ($log)
                     // remember the syntax: <form rails-form-for="user".....>
                     $scope[attrs.railsFormFor].$save().then(onSuccess, onError);
                 });
+                return false;
             });
 
         }
