@@ -17,6 +17,9 @@ usersPageCtrlFn = ($scope, RailsResource) ->
             $scope.users.unshift $scope.userInForm
         initUserInForm()
 
+    $scope.onFormErrors = (response, errors) ->
+        console.log response, errors
+
     # initial form state
     initUserInForm()
 

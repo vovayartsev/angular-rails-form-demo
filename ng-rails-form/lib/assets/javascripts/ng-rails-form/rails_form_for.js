@@ -3,10 +3,11 @@
 // Usage:
 //    <form   name='userForm'
 //            rails-form-for="user"
-//            on-success="someAction()"  >
+//            on-success="someAction(response)"
+//            on-error="anotherAction(response)>
 //
 
-angular.module('ngRailsForm').directive('railsFormFor', ['$log', function ($log) {
+angular.module('ngRailsForm').directive('railsFormFor', ['$log', '$parse', function ($log, $parse) {
     "use strict";
     return {
         require: '^?form',
@@ -36,12 +37,20 @@ angular.module('ngRailsForm').directive('railsFormFor', ['$log', function ($log)
                 return parser;
             }
 
+
+            var onSuccessCallback = null;
+            var onErrorCallback = null;
+            if (attrs.onSuccess) {
+                onSuccessCallback = $parse(attrs.onSuccess);
+            }
+            if (attrs.onError) {
+                onErrorCallback = $parse(attrs.onError);
+            }
+
             function onSuccess(response) {
                 clearServerErrors();
-                if (attrs.onSuccess) {
-                    $scope.$eval(attrs.onSuccess, {
-                        response: response
-                    });
+                if (onSuccessCallback) {
+                    onSuccessCallback($scope, { response: response });
                 }
             }
 
@@ -66,6 +75,9 @@ angular.module('ngRailsForm').directive('railsFormFor', ['$log', function ($log)
                 });
                 // storing server-side errors - just for the user's needs (e.g. to explain why a field is invalid)
                 ctrl.$errors = errors;
+                if (onErrorCallback) {
+                    onErrorCallback($scope, { errors: errors, response: response });
+                }
             }
 
             el.on('submit', function () {

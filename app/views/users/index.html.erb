@@ -43,7 +43,7 @@
     <!--</div>-->
     <!--</form>-->
 
-    <%= angular_form_for User.new, as: "userInForm", name: "userForm", on_success: "onFormSubmittedSuccessfully()" do |f| %>
+    <%= angular_form_for User.new, as: "userInForm", name: "userForm", on_success: "onFormSubmittedSuccessfully()", on_error: "onFormErrors(response, errors)" do |f| %>
         <%= f.label :name %>
         <%= f.text_field :name %>
         <br>
