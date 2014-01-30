@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 20140125170604) do
   create_table "users", force: true do |t|
     t.string   "name"
     t.string   "email"
+    t.boolean  "admin"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
